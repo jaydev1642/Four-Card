@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins, Sans-Serif;
+    padding: 20px;
+}
+.head1 {
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    line-height: 1.2;
+}
+span {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+.p1 {
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-weight: 600;
+    width: 35%;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 375px);
+    grid-template-rows: repeat(2, 275px);
+    grid-gap: 2em;
+    padding: auto;
+    margin-right: 100px;
+    margin-left: 130px;
+}
+h3 {
+    color: hsl(234, 12%, 34%);
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    margin-top: 0px;
+}
+img {
+    position: relative;
+    top: 30px;
+    left: 250px;
+}
+.div1 {
+    background-color: white;
+    border-top: 6px solid hsl(180, 62%, 55%);
+    border-radius: 6px;
+    padding: 30px;
+    position: relative;
+    top: 150px;
+}
+.div2 {
+    background-color: white;
+    border-top: 6px solid hsl(0, 78%, 62%);
+    border-radius: 6px;
+    padding: 30px;
+}
+.div3 {
+    background-color: white;
+    border-top: 6px solid hsl(212, 86%, 64%);
+    border-radius: 6px;
+    padding: 30px;
+    position: relative;
+    top: 150px;
+}
+.div4 {
+    background-color: white;
+    border-top: 6px solid hsl(34, 97%, 64%);
+    border-radius: 6px;
+    padding: 30px;
+    position: relative;
+    left: 415px;
+}
